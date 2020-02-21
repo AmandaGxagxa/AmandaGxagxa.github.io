@@ -1,0 +1,42 @@
+ html, body {
+      margin: 0;
+      padding: 0;
+    }
+    body{text-align: center;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 100%;
+        margin: 100px auto;
+    }
+    #slide1{
+      border-radius: 50%;
+    }
+#slide2{
+      border-radius: 50%;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+    .footer{
+      position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px
+    }

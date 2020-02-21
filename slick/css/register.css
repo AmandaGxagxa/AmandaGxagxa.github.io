@@ -1,0 +1,40 @@
+*{
+	margin: 0 auto;
+	text-align: center;
+}
+#join{
+	background-color: #DD4E4D;
+	margin-top: 30px;
+	height: 50px;
+border-radius: 50px;
+color: white;
+	font-size: 30px;
+}
+#mobile{
+	margin-top: 25px;
+	height: 50px;
+	border-radius: 50px;
+	color: white;
+	font-size: 30px;
+}
+input{
+
+margin-top: 25px;
+
+}
+h1{
+	color:#DD4E4D;
+}
+#name{
+	margin-top: 25px;
+	height: 50px;
+	border-radius: 50px;
+	color: white;
+	font-size: 30px;
+}
+#surname{
+	height: 50px;
+	border-radius: 50px;
+	color: white;
+	font-size: 30px;
+}

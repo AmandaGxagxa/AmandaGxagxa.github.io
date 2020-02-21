@@ -1,0 +1,112 @@
+*{
+text-align: center; 
+margin: 0 auto;
+
+}
+
+.container-fluid{
+	overflow-x:auto;
+}
+body{
+	border:2px red;
+
+}
+
+html, body{
+	height:100%;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+#image{
+	height:50px;
+	width: 50px;
+	border-radius: 50%;
+	text-align: center;
+}
+
+h4{
+	text-align: left;
+	color:#DD4E4D;
+	margin-left:1%;
+	
+}
+.cht{
+	margin-top: 30px;
+}
+#logo{
+	margin-top:50px;
+	margin-bottom: 20px;
+}
+
+#imaget{
+	height:50px;
+	width: 50px;
+	text-align: center;
+}
+#imaget1{
+	height:50px;
+	width: 50px;
+	text-align: center;
+}
+.row4{
+	margin-bottom: 20px;
+}
+.top{
+	margin-top: 100px;
+}
+/*li{
+display: inline;
+padding: 10px 50px;
+font-weight: bold;
+}*/
+#materiel{
+	font-size:36px;
+	color: red;
+}
+.image1{
+width: 40px;
+    height: 40px;
+}
+.image2{
+	width: 40px;
+    height: 40px;
+}
+.image3{
+	width: 40px;
+    height: 40px;
+}
+.image4{
+		width: 40px;
+    height: 40px;
+}
+.dev{
+	margin-top:50px;
+	margin-bottom: 50px;
+}
+.footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#mid{
+	margin-top: 50px;
+}
+#third{
+	
+	margin-bottom: 200px;
+}
+.spot{
+	background-color: white;
+}
+.last{
+	margin-bottom :20px;    
+}
+img{
+	 max-width: 100%;
+    height: auto;
+}
+
+

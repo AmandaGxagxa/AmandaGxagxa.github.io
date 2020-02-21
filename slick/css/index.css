@@ -1,0 +1,21 @@
+*{
+	margin: 0 auto;
+	text-align: center;
+}
+#logo{
+	margin-right: auto;
+
+}
+h1{
+	margin-bottom: 100px;
+	color:#DD4E4D;
+}
+
+#login{
+	background-color: #DD4E4D;
+	margin-top: 50px;
+	height: 50px;
+	border-radius: 50px;
+	color: white;
+	font-size: 30px;
+}
