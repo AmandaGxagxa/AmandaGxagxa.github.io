@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Amanda Gxagxa | Trainee Software Engineer and Co-Founder</title>
 </head>
 
 <body>
     <div class="container">
         <div class="row" id="header">
             <div class="col-md-4">
-                <span class="logo"><img src="img/amanda_logo.png" alt="logo"></span>
+                <span class="logo">
+                    <img src="img/amanda_logo.png" alt="logo" width="180" height="50" />
+                </span>
             </div>
             <div class="col-md-8">
                 <input type="checkbox" id="nav_toggle" class="nav_toggle">
@@ -24,13 +26,13 @@
                             <a class="page-scroll current-page" href="index.html">About </a>
                         </li>
                         <li class="nav-item">
-                            <a class="page-scroll" href="index.html#recentProjects">Projects</a>
+                            <a class="page-scroll" href="index.html#projects">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a class="page-scroll" href="#experience">Experience</a>
                         </li>
                         <li class="nav-item">
-                            <a class="page-scroll" href="#Skills">Skills</a>
+                            <a class="page-scroll" href="#skills">Skills</a>
                         </li>
                         <li>
                             <a class="page-scroll" href="#contact">Contact</a>
@@ -45,8 +47,8 @@
             <div class="col-md-6">
 
                 <h1 class="name">AMANDA GXAGXA</h1>
-                <span>I am Amanda Gxagxa originaly from Eastern Cape provice of South Africa, I currently reside at Western Cape Gugulethu. I am the mother of two and I like them very much. I am a resilient, dedicated and game changer person. I love making an impact in the community,giving back to the community. I have started an NPC that raises awareness of technology and closing gender gap in the tech industry. I am very interested in learning new things, and develop myself careerwise and businesswise.
-                </span>
+                <p>I am Amanda Gxagxa originaly from Eastern Cape provice of South Africa, I currently reside at Western Cape Gugulethu. I am the mother of two and I like them very much. I am a resilient, dedicated and game changer person. I love making an impact in the community,giving back to the community. I have started an NPC that raises awareness of technology and closing gender gap in the tech industry. I am very interested in learning new things, and develop myself careerwise and businesswise.
+                </p>
 
             </div>
             <div class="col-md-6">
@@ -55,13 +57,20 @@
         </div>
         <div class="row" id="projects">
             <div class="col-md-4">
-                <img src="img/dicegame.png" alt="">
+        <!--     
+        When possible, always add the width and height attributes to <img>. 
+        It helps the page load better (becuase it dpes not need to calculate the image dimensions.     
+        
+        Always add alt tags to your images. When they don't load, the user understands what should be there. 
+        Google also learns more about the image this way.
+        -->
+                <img src="img/dicegame.png" alt="Dice Game" width="200" height="250" />
             </div>
             <div class="col-md-4">
-                <img src="img/searchbar.png" alt="">
+                <img src="img/searchbar.png" alt="Search Bar" width="200" height="239" />
             </div>
             <div class="col-md-4">
-                <img src="img/unitconverter.png" alt="">
+                <img src="img/unitconverter.png" alt="Unit Converter" width="200" height="199" />
             </div>
         </div>
         <div class="row" id="skills">
@@ -88,18 +97,24 @@
         </div>
         <div class="row" id="contacts">
             <div class="col-md-6">
-                <h1>Want to connect with me or collaborate?</h1>
+                <!--         
+                You can only have one h1 on a page - rather make this <h2> 
+                -->
+                <h2>Want to connect with me or collaborate?</h2>
             </div>
 
             <div class="col-md-6">
                 <form action="">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Names</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Mishy">
+                <!--         
+                <img /> and <input /> are example elements that have self closing tags... "/>"
+                -->
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Mishy" />
                   </div>
                   <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
                   </div>
                   <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
