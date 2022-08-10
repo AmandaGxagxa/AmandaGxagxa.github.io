@@ -1,0 +1,32 @@
+
+
+div#about {
+  margin-top: 3em;
+  text-align: center;
+  margin-bottom: 0.025em;
+}
+
+/* hover overlay */
+.project {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  /* margin: 0; */
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.project:hover .overlay {
+  width: 70%;
+}
