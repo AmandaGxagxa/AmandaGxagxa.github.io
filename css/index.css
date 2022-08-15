@@ -1,20 +1,59 @@
-.row{
+/* .row {
   border: 1px solid black;
-}
+} */
 
 div#about {
   margin-top: 3em;
   text-align: center;
   margin-bottom: 0.025em;
 }
+section#about {
+  margin-top: 80px;
+  min-height: 100vh;
+  background-color: #b5838d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#projects {
+  /* margin-top: 80px; */
+  min-height: 100vh;
+  background-color: #e5989b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#skills {
+  /* margin-top: 80px; */
+  min-height: 100vh;
+  background-color: #b5838d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#experience {
+  /* margin-top: 80px; */
+  min-height: 100vh;
+  background-color: #e5989b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+section#contacts {
+  /* margin-top: 80px; */
+  min-height: 100vh;
+  background-color: #e5989b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* hover overlay */
 .project {
   display: block;
   width: 100%;
   height: auto;
   position: relative;
-  /* margin: 0; */
 }
 
 .overlay {
@@ -27,8 +66,12 @@ div#about {
   width: 0;
   height: 100%;
   transition: .5s ease;
+  opacity:0.8;
+  color:white;
+  font-size: bold;
+  text-align: center;
 }
 
 .project:hover .overlay {
-  width: 70%;
+  width: 100%;
 }
