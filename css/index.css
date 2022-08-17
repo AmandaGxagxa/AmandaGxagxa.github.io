@@ -1,7 +1,9 @@
 /* .row {
   border: 1px solid black;
 } */
-
+*{
+  box-sizing: border-box;
+}
 div#about {
   margin-top: 3em;
   text-align: center;
@@ -48,6 +50,13 @@ section#contacts {
   justify-content: center;
   align-items: center;
 }
+
+.experience img{
+  height: 110px;
+  width: 110px;
+}
+
+
 /* hover overlay */
 .project {
   display: block;
