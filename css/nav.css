@@ -69,10 +69,11 @@ nav ul li a {
 
 @media only screen and (min-width: 768px) {
     nav {
+        max-width:90%;
         background-color: white;
         display: flex;
         flex-direction: row;
-        justify-content: flex-end
+        justify-content: flex-end;   
     }
 
 

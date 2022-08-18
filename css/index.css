@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: auto;
+  /* text-align: center; */
 }
 
 img {
@@ -111,11 +112,12 @@ section#contacts {
   width: 80%;
 }
 
-span.contact {
+span .contact {
   margin-top: 0;
   font-weight: 700;
 }
 
 section {
   max-width: 100%;
+  text-align: center;
 }
