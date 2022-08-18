@@ -1,8 +1,10 @@
-/* .row {
-  border: 1px solid black;
-} */
 * {
   box-sizing: border-box;
+  margin: auto;
+}
+
+img {
+  margin: auto;
 }
 
 div#about {
@@ -48,7 +50,6 @@ section#experience {
 }
 
 section#contacts {
-  /* margin-top: 80px; */
   min-height: 100vh;
   background-color: #b5838d;
   display: flex;
@@ -60,7 +61,6 @@ section#contacts {
   height: 110px;
   width: 110px;
 }
-
 
 /* hover overlay */
 .project {
@@ -91,8 +91,26 @@ section#contacts {
 }
 
 #experience img {
- max-width: 100%;
- width: 60%;
-  /* height: 100%; */
+  max-width: 100%;
+  width: 60%;
   object-fit: contain;
+}
+
+.ab img {
+  max-width: 100%;
+  width: 90%;
+}
+
+.form {
+  max-width: 90%;
+  width: 80%;
+}
+
+span.contact {
+  margin-top: 0;
+  font-weight: 700;
+}
+
+section {
+  max-width: 100%;
 }
