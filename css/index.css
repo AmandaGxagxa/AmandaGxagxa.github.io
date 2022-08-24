@@ -17,8 +17,10 @@ section img {
 div#about {
   /* margin-top: 3em; */
   text-align: center;
-  /* margin-bottom: 0.025em;
-   */
+ 
+}
+.img{
+  display: flex;
 }
 
 section#about {
