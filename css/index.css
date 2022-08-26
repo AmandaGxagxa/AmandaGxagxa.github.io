@@ -1,8 +1,4 @@
-* {
-  box-sizing: border-box;
-  margin: auto;
-  /* text-align: center; */
-}
+
 
 html {
   scroll-behavior: smooth;
@@ -11,18 +7,28 @@ html {
 section img {
   border-radius: 20px;
   margin: 1em;
-  width: 80%;
 }
-
+.me{
+  margin: auto;
+}
 div#about {
   /* margin-top: 3em; */
   text-align: center;
  
 }
-.img{
-  display: flex;
+.img img{
+  vertical-align: top;
+  align-items: start;
+ 
 }
-
+.line{
+  display: block;
+  background-color: white;
+  height: 4px;
+  width: 5em;
+  border-radius: 2px;
+  position: relative;
+}
 section#about {
   margin-top: 80px;
   min-height: 100vh;
@@ -42,7 +48,6 @@ section#projects {
 }
 
 section#skills {
-  /* margin-top: 80px; */
   min-height: 100vh;
   background-color: #b5838d;
   display: flex;
@@ -51,7 +56,6 @@ section#skills {
 }
 
 section#experience {
-  /* margin-top: 80px; */
   min-height: 100vh;
   background-color: #e5989b;
   display: flex;
@@ -65,6 +69,7 @@ section#contacts {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: left;
 }
 
 .experience img {
