@@ -50,6 +50,7 @@ section#about {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 70px;
 }
 
 section#projects {
@@ -138,7 +139,7 @@ section#contacts {
 
 .ab img {
   max-width: 100%;
-  /* width: 90%; */
+  width: 90%;
 }
 
 span .contact {
@@ -158,5 +159,9 @@ section {
   .me{
     margin: auto;
     text-align: left;
+  }
+  .ab img {
+    max-width: 100%;
+    
   }
 }
