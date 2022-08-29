@@ -43,7 +43,7 @@ section#about {
 
 section#projects {
   min-height: 100vh;
-  background-color: #e5989b;
+  background-color: #F7F7F7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,7 +59,7 @@ section#skills {
 
 section#experience {
   min-height: 100vh;
-  background-color: #e5989b;
+  background-color: #F7F7F7;
   display: flex;
   justify-content: center;
   align-items: center;
