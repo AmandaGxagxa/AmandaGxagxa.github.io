@@ -2,6 +2,9 @@
 html {
   scroll-behavior: smooth;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
 
 section img {
   border-radius: 20px;
@@ -9,9 +12,18 @@ section img {
 }
 .me{
   margin: auto;
+  /* text-align: left; */
 }
-div#about {
-  text-align: center;
+a.btn.btn-white {
+  background: #F7F7F7;
+  text-decoration: none;
+  color: black;
+}
+
+.btn-white span{
+  background-color: #F7F7F7;
+  height: 25px;
+  width: 150px;
 }
 .btn-pink{
   background-color: #b5838d;
@@ -19,10 +31,10 @@ div#about {
   font-weight: 600;
 }
 
-.img img{
+/* .img img{
   vertical-align: top;
   align-items: start;
-}
+} */
 
 .line{
   display: block;
@@ -56,6 +68,17 @@ section#skills {
   justify-content: center;
   align-items: center;
 }
+#skills img {
+  max-width: 65px;
+  border-radius: 5px;
+  margin: 10px;
+}
+#contacts img {
+  max-width: 35px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
 
 section#experience {
   min-height: 100vh;
@@ -127,4 +150,14 @@ span .contact {
 section {
   max-width: 100%;
   text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  div#about {
+    text-align: left;
+  }
+
+  .me{
+    margin: auto;
+    text-align: left;
+  }
 }
