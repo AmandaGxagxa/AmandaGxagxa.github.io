@@ -45,7 +45,6 @@ a.btn.btn-white {
   position: relative;
 }
 section#about {
-  margin-top: 80px;
   min-height: 100vh;
   background-color: #ffafcc;
   display: flex;
