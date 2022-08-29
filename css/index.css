@@ -1,5 +1,4 @@
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -12,15 +11,19 @@ section img {
   margin: auto;
 }
 div#about {
-  /* margin-top: 3em; */
   text-align: center;
- 
 }
+.btn-pink{
+  background-color: #b5838d;
+  color: black;
+  font-weight: 600;
+}
+
 .img img{
   vertical-align: top;
   align-items: start;
- 
 }
+
 .line{
   display: block;
   background-color: white;
@@ -32,14 +35,13 @@ div#about {
 section#about {
   margin-top: 80px;
   min-height: 100vh;
-  background-color: #b5838d;
+  background-color: #ffafcc;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 section#projects {
-  /* margin-top: 80px; */
   min-height: 100vh;
   background-color: #e5989b;
   display: flex;
@@ -49,7 +51,7 @@ section#projects {
 
 section#skills {
   min-height: 100vh;
-  background-color: #b5838d;
+  background-color: #ffafcc;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +67,7 @@ section#experience {
 
 section#contacts {
   min-height: 100vh;
-  background-color: #b5838d;
+  background-color: #ffafcc;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,19 +114,10 @@ section#contacts {
   object-fit: contain;
 }
 
-/* #header{
-  background-color: white;
-} */
-
 .ab img {
   max-width: 100%;
   width: 90%;
 }
-
-/* .form {
-  max-width: 90%;
-  width: 80%;
-} */
 
 span .contact {
   margin-top: 0;
