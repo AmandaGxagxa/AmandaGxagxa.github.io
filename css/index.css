@@ -30,12 +30,6 @@ a.btn.btn-white {
   color: black;
   font-weight: 600;
 }
-
-/* .img img{
-  vertical-align: top;
-  align-items: start;
-} */
-
 .line{
   display: block;
   background-color: white;
@@ -52,6 +46,20 @@ section#about {
   align-items: center;
   margin-top: 50px;
 }
+section#skills {
+  min-height: 100vh;
+  background-color: #F7F7F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#experience {
+  min-height: 100vh;
+  background-color: #ffafcc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 section#projects {
   min-height: 100vh;
@@ -60,14 +68,15 @@ section#projects {
   justify-content: center;
   align-items: center;
 }
-
-section#skills {
+section#contacts {
   min-height: 100vh;
   background-color: #ffafcc;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: left;
 }
+
 #skills img {
   max-width: 65px;
   border-radius: 5px;
@@ -77,24 +86,6 @@ section#skills {
   max-width: 35px;
   border-radius: 5px;
   margin: 10px;
-}
-
-
-section#experience {
-  min-height: 100vh;
-  background-color: #F7F7F7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-section#contacts {
-  min-height: 100vh;
-  background-color: #ffafcc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
 }
 
 .experience img {
