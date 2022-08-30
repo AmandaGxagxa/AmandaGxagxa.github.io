@@ -82,6 +82,10 @@ section#contacts {
   border-radius: 5px;
   margin: 10px;
 }
+
+#skills p{
+  line-height: 180%;
+}
 #contacts img {
   max-width: 35px;
   border-radius: 5px;
