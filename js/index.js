@@ -1,24 +1,36 @@
-let names = document.getElementById('names')
-let subject = document.getElementById('subject')
-let email = document.getElementById('email')
-let message = document.getElementById('message')
+
+
+let subject = document.forms["myForm"]["subject"].value;
+let email = document.forms["myForm"]["email"].value
+let message = document.forms["myForm"]["message"].value;
+let nameErrorMsg = document.getElementById('name-error');
+let subErrorMsg = document.getElementById('email-error');
+let emailErrorMsg = document.getElementById('subject-error');
+// let btn_pink = document.getElementById('btn-pink')
+
 
 function validateForm() {
-    if (names.value == "") {
-      alert("Name must be filled out");
-      return false;
+    let names = document.forms["myForm"]["names"].value; 
+    if (names == "") {
+    nameErrorMsg.innerHTML = "Please enter a name"
+        console.log("we are here")
+     return false;
+     
     }
-     if (subject.value == "") {
-      alert("Surname must be filled out");
-      return false;
-    }
-     if (email.value == "" || email.value ==) {
-      alert("number must be filled out");
-      return false;
-    }
-    if (message == "") {
-      alert("email must be filled out");
-      return false;
-    }
+    if (email == "") {
+        nameErrorMsg.innerHTML = "Please enter a email address"
+            console.log("we are here")
+         return false;
+         
+        }
+       
+        if (subject == "") {
+            nameErrorMsg.innerHTML = "Please enter a subject"
+                console.log("we are here")
+             return false;
+             
+            }
+   
   }
    
+//btn_pink.addEventListener("click", validateForm);

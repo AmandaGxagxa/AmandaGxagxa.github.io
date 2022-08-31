@@ -30,7 +30,7 @@
                         <nav>
                             <ul>
                                 <li>
-                                    <a class=" active" href="index.html#about">About </a>
+                                    <a class=" active" href="#about">About </a>
                                 </li>
                                
                                 <li>
@@ -206,26 +206,29 @@
                     </div>
                 </div>
                 <div class="col-md-6 form">
-                    <form action="">
+                    <form  name="myForm" onsubmit="validateForm(); return false"  method="post">
                         <div class="mb-3">
                             <label for="names" class="form-label">Names</label>
-                            <input type="text" class="form-control" id="names" placeholder="Names">
+                            <input type="text" class="form-control" name="names" id="names" placeholder="Names"><br>
+                            <span id="name-error"></span>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email"
+                            <input type="email" class="form-control" name="email" id="email"
                                 placeholder="name@example.com">
+                                <br><span id="email-error"></span>
                         </div>
                         <div class="mb-3">
                             <label for="subject" class="form-label">Subject</label>
-                            <input type="text" class="form-control" id="subject"
+                            <input type="text" class="form-control" id="subject" name="subject" id="subject"
                                 placeholder="Subject">
+                                <br><span id="subject-error"></span>
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label">Message</label>
                             <textarea class="form-control" id="message" rows="3"></textarea>
                         </div>
-                        <input class="btn btn-pink" type="submit" value="Submit">
+                        <input class="btn btn-pink" id="btn-pink" type="submit" value="Submit">
                     </form>
                 </div>
             </div>
@@ -240,5 +243,5 @@
         </div>
     </div>
 </body>
-
+<script src="js/index.js"></script>
 </html>
