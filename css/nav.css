@@ -28,10 +28,14 @@ nav ul li a {
     color: black;
     font-weight: bolder;
 }
-nav ul li a:hover,:active {
+nav li a:hover{
     color: #b5838d;
     font-weight: bold;
     /* font-weight: bolder; */
+}
+nav li a:active{
+    color: #b5838d;
+    font-weight: bold;
 }
 
 

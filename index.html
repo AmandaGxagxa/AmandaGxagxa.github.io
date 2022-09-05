@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div id="header" class="fixed-top">
+    <div id="header" class="fixed-top transparent">
         <div class="container ">
 
             <div class="row ">
@@ -209,24 +209,19 @@
                     <form  name="myForm" onsubmit="validateForm(); return false"  method="post">
                         <div class="mb-3">
                             <label for="names" class="form-label">Names</label>
-                            <input type="text" class="form-control" name="names" id="names" placeholder="Names"><br>
+                            <input type="text" class="form-control requiredField" name="names" id="names" placeholder="Names"><br>
                             <span id="name-error"></span>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" name="email" id="email"
+                            <input type="email" class="form-control requiredField" name="email" id="email"
                                 placeholder="name@example.com">
                                 <br><span id="email-error"></span>
                         </div>
                         <div class="mb-3">
-                            <label for="subject" class="form-label">Subject</label>
-                            <input type="text" class="form-control" id="subject" name="subject" id="subject"
-                                placeholder="Subject">
-                                <br><span id="subject-error"></span>
-                        </div>
-                        <div class="mb-3">
                             <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="3"></textarea>
+                            <textarea class="form-control requiredField" id="message" rows="3"></textarea>
+                            <br><span id="message-error"></span>
                         </div>
                         <input class="btn btn-pink" id="btn-pink" type="submit" value="Submit">
                     </form>
