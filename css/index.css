@@ -14,6 +14,9 @@ section img {
   margin: auto;
   /* text-align: left; */
 }
+.ab {
+  order: -1;
+}
 a.btn.btn-white {
   background: #F7F7F7;
   text-decoration: none;
@@ -38,13 +41,18 @@ a.btn.btn-white {
   border-radius: 2px;
   position: relative;
 }
+ #header{
+background: rgba(255, 255, 255, 0);
+transition: background .3s linear
+}
 section#about {
   min-height: 100vh;
   background-color: #ffafcc;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  padding-top: 140px;
+  
 }
 section#skills {
   min-height: 100vh;
@@ -145,11 +153,16 @@ span .contact {
 section {
   max-width: 100%;
   text-align: center;
+  padding: 1.05em;
 }
 @media only screen and (min-width: 768px) {
   div#about {
     text-align: left;
+    margin-top: 5px;
   }
+  .ab {
+    order: 0;
+}
 
   .me{
     margin: auto;
@@ -159,4 +172,6 @@ section {
     max-width: 100%;
     
   }
+ 
+
 }

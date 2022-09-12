@@ -4,7 +4,7 @@ let messageError = document.getElementById('message-error');
 let requiredFields = document.querySelectorAll(".requiredField")
 
 function validateForm() {
-    const { names,email,message } = document.forms["myForm"]
+    const { names, email, message } = document.forms["myForm"]
 
     if (names.value === "") {
         nameErrorMsg.innerHTML = "Please enter a name"
@@ -16,7 +16,7 @@ function validateForm() {
         return false;
 
     }
-    if(message.value === ""){
+    if (message.value === "") {
         messageError.innerHTML = "Please enter a email address"
 
         return false;
@@ -24,25 +24,28 @@ function validateForm() {
 
 }
 
-function clearErrorMsg(){
-    nameErrorMsg.innerHTML=""
-    messageError.innerHTML=""
-    emailErrorMsg.innerHTML=""
+function clearErrorMsg() {
+    nameErrorMsg.innerHTML = ""
+    messageError.innerHTML = ""
+    emailErrorMsg.innerHTML = ""
 }
 
 requiredFields.forEach(requiredField => {
-    requiredField.addEventListener('focus', clearErrorMsg)   
+    requiredField.addEventListener('focus', clearErrorMsg)
 });
 
 //nav code
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("header").style.background = "#ffffff73";
+    console.log(document.body.offsetHeight)
+    const scrollTop = window.scrollY || document.body.scrollTop || document.documentElement.scrollTop;
 
-  } else {
-    document.getElementById("header").style.background = "transparent";
-  }
+    if (scrollTop < 100) {
+        document.getElementById("header").style.backgroundColor = "transparent";
+       
+    } else {
+        document.getElementById("header").style.backgroundColor = "#ffffff";
+    }
 }
