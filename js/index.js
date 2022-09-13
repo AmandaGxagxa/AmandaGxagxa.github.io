@@ -49,3 +49,15 @@ function scrollFunction() {
         document.getElementById("header").style.backgroundColor = "#ffffff";
     }
 }
+
+function showMore(){
+    //removes the link
+    document.getElementById('more').style.display = 'block';
+    document.getElementById("link_more").style.display ='none'
+}
+function showLess(){
+    document.getElementById('more').style.display = "none";
+    document.getElementById("link_more").style.display ='block'
+}
+    //shows the #more
+   
