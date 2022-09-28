@@ -4,11 +4,10 @@ let messageError = document.getElementById('message-error');
 let requiredFields = document.querySelectorAll(".requiredField")
 
 function validateForm() {
-    const { names, email, message } = document.forms["myForm"]
+    const { names, email, message } = document.forms["contact"]
 
     if (names.value === "") {
         nameErrorMsg.innerHTML = "Please enter a name"
-        console.log("we are here")
         return false;
     }
     if (email.value === "") {
@@ -17,10 +16,11 @@ function validateForm() {
 
     }
     if (message.value === "") {
-        messageError.innerHTML = "Please enter a email address"
+        messageError.innerHTML = "Please enter your message"
 
         return false;
     }
+    return true
 
 }
 
@@ -39,7 +39,7 @@ requiredFields.forEach(requiredField => {
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-    console.log(document.body.offsetHeight)
+   
     const scrollTop = window.scrollY || document.body.scrollTop || document.documentElement.scrollTop;
 
     if (scrollTop < 100) {
@@ -61,3 +61,5 @@ function showLess(){
 }
     //shows the #more
    
+    // let d = new Date(); 
+    // page.currentYear = d.getFullYear(); 

@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\AmandaGxagxa.github.io"
+		},
+		{
+			"path": "..\\..\\coutingApp"
+		},
+		{
+			"path": "..\\..\\calculator"
+		},
+		{
+			"path": "..\\..\\ZeplinDesign"
+		},
+		{
+			"path": "..\\..\\NewPortfolio"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\DiceGame2"
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"titleBar.activeBackground": "#8d1f5c",
+			"titleBar.inactiveBackground": "#8d1f5c",
+			"titleBar.activeForeground": "#fff",
+			"titleBar.inactiveForeground": "#fff",
+			"statusBar.foreground": "#ffffff",
+			"statusBar.background": "#8d1f5c"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "DiceGame2"
+	}
+}
